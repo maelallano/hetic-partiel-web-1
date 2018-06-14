@@ -1221,6 +1221,11 @@ table a,
 /* Mobile Devices --------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width:900px) {
+	.container {
+	    display: flex;
+    	flex-direction: column;
+    	align-items: center;
+	}
 	.hoc {
 		max-width: 90%;
 	}
