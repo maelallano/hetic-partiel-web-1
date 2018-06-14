@@ -465,6 +465,19 @@ nav ol {
 
 /* Top Navigation */
 
+#burgerMenu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+.burgerMenu__stroke {
+	height: 1px;
+	width: 100%;
+	background: white;
+}
+
 #mainav {}
 
 #mainav ul {
@@ -1218,9 +1231,17 @@ table a,
 	#header #logo {
 		margin-top: 3px;
 	}
-	#mainav {}
+	#burgerMenu {
+		display: flex;
+		width: 40px;
+		height: 20px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#mainav {
+	}
 	#mainav ul {
-		display: none;
 	}
 	#mainav form {
 		display: block;
