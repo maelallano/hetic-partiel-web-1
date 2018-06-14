@@ -724,9 +724,10 @@ nav ol {
 
 #backtotop {
 	z-index: 999;
-	display: inline-block;
+	display: flex;
 	position: fixed;
-	visibility: hidden;
+	justify-content: center;
+	align-items: center;
 	bottom: 20px;
 	right: 20px;
 	width: 36px;
