@@ -1370,3 +1370,7 @@ table a,
 	}
 }
 
+a:hover {
+	color: pink;
+	transition: ease 300ms;
+}
